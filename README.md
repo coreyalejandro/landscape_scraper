@@ -47,7 +47,6 @@ Then open your browser to `http://localhost:8501`
 
 ## 📁 Project Structure
 
-```
 landscape_scraper/
 ├── app.py              # Streamlit web interface
 ├── scraper.js          # Main scraper orchestrator
@@ -61,7 +60,6 @@ landscape_scraper/
 │   └── summary.json   # Statistics
 ├── logs/              # Log files
 └── temp_data/         # Progress tracking
-```
 
 ## 🎯 Data Sources
 
@@ -146,18 +144,18 @@ Edit the `searchTerms` arrays in `dataSources.js` to target specific:
 
 ### Common Issues
 
-**"Selector not found"**
+Selector not found
 
 - Website has changed structure
 - Update selectors in `dataSources.js`
 
-**"No results found"**
+No results found
 
 - Search terms may be too specific
 - Try broader keywords
 - Check if source website is accessible
 
-**"Browser timeout"**
+Browser timeout
 
 - Increase timeout values
 - Check internet connection
