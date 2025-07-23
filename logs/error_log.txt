@@ -1,0 +1,54 @@
+[2025-07-23T02:11:58.527Z] Fatal error in main execution: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+[2025-07-23T02:12:30.377Z] Fatal error: Timed out after 30000 ms while waiting for the WS endpoint URL to appear in stdout!
+[2025-07-23T02:39:08.877Z] Error searching for "HOA" on Broward County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:39:18.879Z] Error searching for "Homeowners Association" on Broward County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:39:28.882Z] Error searching for "Condominium Association" on Broward County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:39:38.885Z] Error searching for "Community Association" on Broward County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:39:48.888Z] Error searching for "Residential Association" on Broward County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:40:05.979Z] Error searching for "HOA" on Miami-Dade County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:40:15.983Z] Error searching for "Homeowners Association" on Miami-Dade County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:40:25.985Z] Error searching for "Condominium Association" on Miami-Dade County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:40:35.987Z] Error searching for "Community Association" on Miami-Dade County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:40:45.990Z] Error searching for "Residential Association" on Miami-Dade County Property Appraiser: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:41:02.638Z] Error searching for "Broward" on Florida DBPR - Division of Condominiums: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:41:12.640Z] Error searching for "Miami-Dade" on Florida DBPR - Division of Condominiums: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:41:22.643Z] Error searching for "Miami" on Florida DBPR - Division of Condominiums: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:41:32.644Z] Error searching for "Fort Lauderdale" on Florida DBPR - Division of Condominiums: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:41:42.646Z] Error searching for "Hollywood" on Florida DBPR - Division of Condominiums: Waiting for selector `#search-term` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:42:40.143Z] Error searching for "Florida" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:42:50.157Z] Error searching for "Broward" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:43:00.166Z] Error searching for "Miami-Dade" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:43:10.172Z] Error searching for "Miami" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:43:17.619Z] Error processing FindHOA.com: net::ERR_NAME_NOT_RESOLVED at https://www.findhoa.com
+[2025-07-23T02:43:41.755Z] Error processing Thumbtack Property Managers: Navigating frame was detached
+[2025-07-23T02:43:41.756Z] Error processing Thumbtack Property Managers: Protocol error: Connection closed.
+[2025-07-23T02:44:16.872Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:44:53.251Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:45:29.275Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:45:32.377Z] Error searching Google Maps for "property management companies broward county": Protocol error: Connection closed.
+[2025-07-23T02:45:32.377Z] Error searching Google Maps for "property managers miami-dade county": Protocol error: Connection closed.
+[2025-07-23T02:45:32.378Z] Error searching Google Maps for "property management fort lauderdale": Protocol error: Connection closed.
+[2025-07-23T02:45:47.139Z] Error processing Yelp - Property Management: Protocol error: Connection closed.
+[2025-07-23T02:48:54.872Z] Error searching for "Florida" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:49:04.879Z] Error searching for "Broward" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:49:14.883Z] Error searching for "Miami-Dade" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:49:24.886Z] Error searching for "Miami" on CAI Directory: Waiting for selector `#search-directory` failed: Waiting failed: 10000ms exceeded
+[2025-07-23T02:50:52.016Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:51:28.026Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:52:03.771Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:52:42.683Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:53:18.166Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:53:54.123Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T02:54:08.547Z] Error processing Yelp - HOAs: Navigating frame was detached
+[2025-07-23T02:54:08.547Z] Error processing Yelp - HOAs: Protocol error: Connection closed.
+[2025-07-23T03:10:29.735Z] Error processing CAI Directory: Navigation timeout of 60000 ms exceeded
+[2025-07-23T03:11:57.172Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T03:12:33.003Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T03:13:09.340Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T03:13:45.720Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T03:14:21.893Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T03:14:57.818Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T03:15:05.058Z] Error processing Yelp - HOAs: Navigating frame was detached
+[2025-07-23T03:15:05.058Z] Error processing Yelp - HOAs: Protocol error: Connection closed.
+[2025-07-23T03:53:42.960Z] Fatal error in main execution: helpers.processResults is not a function
+[2025-07-23T03:53:43.240Z] Fatal error: helpers.processResults is not a function
