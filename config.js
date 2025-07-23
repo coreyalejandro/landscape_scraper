@@ -10,15 +10,15 @@ module.exports = {
     propertyManagement: true
   },
   sources: {
-    propertyAppraisers: false,
-    dbpr: false,
+    propertyAppraisers: false,  // Need to update selectors before enabling
+    dbpr: false,               // Keep disabled until selectors verified
     directories: true,
-    sunbiz: false,
+    sunbiz: false,            // Keep disabled until selectors verified
     googleMaps: true,
     yelpPages: true,
     thirdParty: true,
-    realEstateBoards: false,
-    chamberOfCommerce: false
+    realEstateBoards: false,  // Keep disabled until selectors verified
+    chamberOfCommerce: false  // Keep disabled until selectors verified
   },
   requestDelay: 2000,
   maxPages: 30,

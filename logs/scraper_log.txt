@@ -290,3 +290,307 @@
 [2025-07-23T10:16:45.524Z] Summary saved to ./results/summary.json
 [2025-07-23T10:16:45.524Z] Closing browser instances...
 [2025-07-23T10:16:45.809Z] South Florida HOA & Property Management Scraper completed successfully.
+[2025-07-23T10:52:44.398Z] South Florida HOA & Property Management Scraper started.
+[2025-07-23T10:52:44.400Z] Launching browser instance 1/2
+[2025-07-23T10:52:45.393Z] Launching browser instance 2/2
+[2025-07-23T10:52:45.743Z] Found 8 enabled data sources to process
+[2025-07-23T10:52:45.743Z] Processing source 1/8: CAI Directory
+[2025-07-23T10:52:45.744Z] Processing source 2/8: FindHOA.com
+[2025-07-23T10:52:45.744Z] Processing source 3/8: All Property Management
+[2025-07-23T10:52:45.744Z] Processing source 4/8: Thumbtack Property Managers
+[2025-07-23T10:52:45.744Z] Processing source 5/8: Google Maps - HOAs
+[2025-07-23T10:52:45.745Z] Processing source 6/8: Google Maps - Property Management
+[2025-07-23T10:52:45.745Z] Processing source 7/8: Yelp - HOAs
+[2025-07-23T10:52:45.745Z] Processing source 8/8: Yelp - Property Management
+[2025-07-23T10:52:45.746Z] Processing and cleaning collected data...
+[2025-07-23T10:52:45.749Z] 
+=== SCRAPING SUMMARY ===
+[2025-07-23T10:52:45.749Z] Sources processed: 0/8
+[2025-07-23T10:52:45.749Z] Total entities found: 0
+[2025-07-23T10:52:45.749Z] HOAs: 0
+[2025-07-23T10:52:45.750Z] Property Management: 0
+[2025-07-23T10:52:45.750Z] Both types: 0
+[2025-07-23T10:52:45.750Z] Unknown type: 0
+[2025-07-23T10:52:45.750Z] With email: 0
+[2025-07-23T10:52:45.750Z] With phone: 0
+[2025-07-23T10:52:45.750Z] With website: 0
+[2025-07-23T10:52:45.751Z] Errors encountered: 8
+[2025-07-23T10:52:45.751Z] Summary saved to ./results/summary.json
+[2025-07-23T10:52:45.751Z] Closing browser instances...
+[2025-07-23T10:52:46.060Z] South Florida HOA & Property Management Scraper completed successfully.
+[2025-07-23T10:54:05.157Z] South Florida HOA & Property Management Scraper started.
+[2025-07-23T10:54:05.158Z] Launching browser instance 1/2
+[2025-07-23T10:54:06.025Z] Launching browser instance 2/2
+[2025-07-23T10:54:06.411Z] Found 8 enabled data sources to process
+[2025-07-23T10:54:06.411Z] Processing source 1/8: CAI Directory
+[2025-07-23T10:54:06.411Z] Standard scraping not fully implemented for CAI Directory
+[2025-07-23T10:54:06.411Z] No results found for CAI Directory
+[2025-07-23T10:54:08.081Z] Processing source 2/8: FindHOA.com
+[2025-07-23T10:54:08.081Z] Standard scraping not fully implemented for FindHOA.com
+[2025-07-23T10:54:08.082Z] No results found for FindHOA.com
+[2025-07-23T10:54:09.940Z] Processing source 3/8: All Property Management
+[2025-07-23T10:54:09.940Z] Standard scraping not fully implemented for All Property Management
+[2025-07-23T10:54:09.940Z] No results found for All Property Management
+[2025-07-23T10:54:11.869Z] Processing source 4/8: Thumbtack Property Managers
+[2025-07-23T10:54:11.869Z] Standard scraping not fully implemented for Thumbtack Property Managers
+[2025-07-23T10:54:11.869Z] No results found for Thumbtack Property Managers
+[2025-07-23T10:54:13.525Z] Processing source 5/8: Google Maps - HOAs
+[2025-07-23T10:54:13.526Z] Searching Google Maps for: homeowners association broward county
+[2025-07-23T10:54:50.623Z] Searching Google Maps for: hoa miami-dade county
+[2025-07-23T10:55:27.432Z] No results found for Google Maps - HOAs
+[2025-07-23T10:55:29.764Z] Processing source 6/8: Google Maps - Property Management
+[2025-07-23T10:55:29.764Z] Searching Google Maps for: property management companies broward county
+[2025-07-23T10:56:06.141Z] Searching Google Maps for: property managers miami-dade county
+[2025-07-23T10:56:42.382Z] No results found for Google Maps - Property Management
+[2025-07-23T10:56:44.875Z] Processing source 7/8: Yelp - HOAs
+[2025-07-23T10:56:44.876Z] Standard scraping not fully implemented for Yelp - HOAs
+[2025-07-23T10:56:44.876Z] No results found for Yelp - HOAs
+[2025-07-23T10:56:47.089Z] Processing source 8/8: Yelp - Property Management
+[2025-07-23T10:56:47.089Z] Standard scraping not fully implemented for Yelp - Property Management
+[2025-07-23T10:56:47.090Z] No results found for Yelp - Property Management
+[2025-07-23T10:56:49.533Z] Processing and cleaning collected data...
+[2025-07-23T10:56:49.539Z] 
+=== SCRAPING SUMMARY ===
+[2025-07-23T10:56:49.539Z] Sources processed: 8/8
+[2025-07-23T10:56:49.539Z] Total entities found: 0
+[2025-07-23T10:56:49.539Z] HOAs: 0
+[2025-07-23T10:56:49.539Z] Property Management: 0
+[2025-07-23T10:56:49.539Z] Both types: 0
+[2025-07-23T10:56:49.539Z] Unknown type: 0
+[2025-07-23T10:56:49.540Z] With email: 0
+[2025-07-23T10:56:49.540Z] With phone: 0
+[2025-07-23T10:56:49.540Z] With website: 0
+[2025-07-23T10:56:49.540Z] Errors encountered: 0
+[2025-07-23T10:56:49.540Z] Summary saved to ./results/summary.json
+[2025-07-23T10:56:49.540Z] Closing browser instances...
+[2025-07-23T10:56:49.726Z] South Florida HOA & Property Management Scraper completed successfully.
+[2025-07-23T10:58:05.195Z] South Florida HOA & Property Management Scraper started.
+[2025-07-23T10:58:05.197Z] Launching browser instance 1/2
+[2025-07-23T10:58:06.227Z] Launching browser instance 2/2
+[2025-07-23T10:58:06.925Z] Found 8 enabled data sources to process
+[2025-07-23T10:58:06.925Z] Processing source 1/8: CAI Directory
+[2025-07-23T10:58:06.925Z] Standard scraping not fully implemented for CAI Directory
+[2025-07-23T10:58:06.925Z] No results found for CAI Directory
+[2025-07-23T10:58:08.457Z] Processing source 2/8: FindHOA.com
+[2025-07-23T10:58:08.458Z] Standard scraping not fully implemented for FindHOA.com
+[2025-07-23T10:58:08.459Z] No results found for FindHOA.com
+[2025-07-23T10:58:10.727Z] Processing source 3/8: All Property Management
+[2025-07-23T10:58:10.728Z] Standard scraping not fully implemented for All Property Management
+[2025-07-23T10:58:10.728Z] No results found for All Property Management
+[2025-07-23T10:58:13.022Z] Processing source 4/8: Thumbtack Property Managers
+[2025-07-23T10:58:13.023Z] Standard scraping not fully implemented for Thumbtack Property Managers
+[2025-07-23T10:58:13.023Z] No results found for Thumbtack Property Managers
+[2025-07-23T10:58:15.299Z] Processing source 5/8: Google Maps - HOAs
+[2025-07-23T10:58:15.299Z] Searching Google Maps for: homeowners association broward county
+[2025-07-23T10:58:15.443Z] Navigating to Google Maps for: homeowners association broward county
+[2025-07-23T10:58:20.700Z] Searching Google Maps for: hoa miami-dade county
+[2025-07-23T10:58:20.795Z] Navigating to Google Maps for: hoa miami-dade county
+[2025-07-23T10:58:25.279Z] No results found for Google Maps - HOAs
+[2025-07-23T10:58:27.754Z] Processing source 6/8: Google Maps - Property Management
+[2025-07-23T10:58:27.755Z] Searching Google Maps for: property management companies broward county
+[2025-07-23T10:58:27.873Z] Navigating to Google Maps for: property management companies broward county
+[2025-07-23T10:58:33.612Z] Searching Google Maps for: property managers miami-dade county
+[2025-07-23T10:58:33.755Z] Navigating to Google Maps for: property managers miami-dade county
+[2025-07-23T10:58:38.254Z] No results found for Google Maps - Property Management
+[2025-07-23T10:58:39.849Z] Processing source 7/8: Yelp - HOAs
+[2025-07-23T10:58:39.849Z] Standard scraping not fully implemented for Yelp - HOAs
+[2025-07-23T10:58:39.850Z] No results found for Yelp - HOAs
+[2025-07-23T10:58:42.142Z] Processing source 8/8: Yelp - Property Management
+[2025-07-23T10:58:42.143Z] Standard scraping not fully implemented for Yelp - Property Management
+[2025-07-23T10:58:42.143Z] No results found for Yelp - Property Management
+[2025-07-23T10:58:43.955Z] Processing and cleaning collected data...
+[2025-07-23T10:58:43.960Z] 
+=== SCRAPING SUMMARY ===
+[2025-07-23T10:58:43.960Z] Sources processed: 8/8
+[2025-07-23T10:58:43.960Z] Total entities found: 0
+[2025-07-23T10:58:43.960Z] HOAs: 0
+[2025-07-23T10:58:43.960Z] Property Management: 0
+[2025-07-23T10:58:43.960Z] Both types: 0
+[2025-07-23T10:58:43.960Z] Unknown type: 0
+[2025-07-23T10:58:43.960Z] With email: 0
+[2025-07-23T10:58:43.960Z] With phone: 0
+[2025-07-23T10:58:43.960Z] With website: 0
+[2025-07-23T10:58:43.960Z] Errors encountered: 0
+[2025-07-23T10:58:43.961Z] Summary saved to ./results/summary.json
+[2025-07-23T10:58:43.961Z] Closing browser instances...
+[2025-07-23T10:58:44.134Z] South Florida HOA & Property Management Scraper completed successfully.
+[2025-07-23T10:59:02.659Z] South Florida HOA & Property Management Scraper started.
+[2025-07-23T10:59:02.661Z] Launching browser instance 1/2
+[2025-07-23T10:59:03.568Z] Launching browser instance 2/2
+[2025-07-23T10:59:03.940Z] Found 8 enabled data sources to process
+[2025-07-23T10:59:03.941Z] Processing source 1/8: CAI Directory
+[2025-07-23T10:59:03.941Z] Standard scraping not fully implemented for CAI Directory
+[2025-07-23T10:59:03.941Z] No results found for CAI Directory
+[2025-07-23T10:59:06.051Z] Processing source 2/8: FindHOA.com
+[2025-07-23T10:59:06.051Z] Standard scraping not fully implemented for FindHOA.com
+[2025-07-23T10:59:06.051Z] No results found for FindHOA.com
+[2025-07-23T10:59:08.155Z] Processing source 3/8: All Property Management
+[2025-07-23T10:59:08.156Z] Standard scraping not fully implemented for All Property Management
+[2025-07-23T10:59:08.156Z] No results found for All Property Management
+[2025-07-23T10:59:10.470Z] Processing source 4/8: Thumbtack Property Managers
+[2025-07-23T10:59:10.472Z] Standard scraping not fully implemented for Thumbtack Property Managers
+[2025-07-23T10:59:10.472Z] No results found for Thumbtack Property Managers
+[2025-07-23T10:59:12.101Z] Processing source 5/8: Google Maps - HOAs
+[2025-07-23T10:59:12.102Z] Searching Google Maps for: homeowners association broward county
+[2025-07-23T10:59:12.338Z] Navigating to Google Maps for: homeowners association broward county
+[2025-07-23T10:59:23.628Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T10:59:23.641Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T10:59:23.641Z] Processing result 1/5
+[2025-07-23T10:59:25.700Z] Extracted: Results
+[2025-07-23T10:59:26.757Z] Processing result 2/5
+[2025-07-23T10:59:27.817Z] Processing result 3/5
+[2025-07-23T10:59:28.820Z] Processing result 4/5
+[2025-07-23T10:59:29.823Z] Processing result 5/5
+[2025-07-23T10:59:32.789Z] Searching Google Maps for: hoa miami-dade county
+[2025-07-23T10:59:32.903Z] Navigating to Google Maps for: hoa miami-dade county
+[2025-07-23T10:59:43.362Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T10:59:43.370Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T10:59:43.370Z] Processing result 1/5
+[2025-07-23T10:59:45.389Z] Extracted: Results
+[2025-07-23T10:59:46.427Z] Processing result 2/5
+[2025-07-23T10:59:47.472Z] Processing result 3/5
+[2025-07-23T10:59:48.474Z] Processing result 4/5
+[2025-07-23T10:59:49.477Z] Processing result 5/5
+[2025-07-23T10:59:52.163Z] Collected 2 results from Google Maps - HOAs
+[2025-07-23T10:59:54.060Z] Processing source 6/8: Google Maps - Property Management
+[2025-07-23T10:59:54.061Z] Searching Google Maps for: property management companies broward county
+[2025-07-23T10:59:54.217Z] Navigating to Google Maps for: property management companies broward county
+[2025-07-23T11:00:05.571Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T11:00:05.577Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T11:00:05.577Z] Processing result 1/5
+[2025-07-23T11:00:07.605Z] Extracted: Results
+[2025-07-23T11:00:08.642Z] Processing result 2/5
+[2025-07-23T11:00:09.683Z] Processing result 3/5
+[2025-07-23T11:00:10.685Z] Processing result 4/5
+[2025-07-23T11:00:11.688Z] Processing result 5/5
+[2025-07-23T11:00:14.471Z] Searching Google Maps for: property managers miami-dade county
+[2025-07-23T11:00:14.574Z] Navigating to Google Maps for: property managers miami-dade county
+[2025-07-23T11:00:25.146Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T11:00:25.179Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T11:00:25.179Z] Processing result 1/5
+[2025-07-23T11:00:27.264Z] Extracted: Results
+[2025-07-23T11:00:28.307Z] Processing result 2/5
+[2025-07-23T11:00:29.355Z] Processing result 3/5
+[2025-07-23T11:00:30.356Z] Processing result 4/5
+[2025-07-23T11:00:31.359Z] Processing result 5/5
+[2025-07-23T11:00:34.368Z] Collected 2 results from Google Maps - Property Management
+[2025-07-23T11:00:35.891Z] Processing source 7/8: Yelp - HOAs
+[2025-07-23T11:00:35.892Z] Standard scraping not fully implemented for Yelp - HOAs
+[2025-07-23T11:00:35.892Z] No results found for Yelp - HOAs
+[2025-07-23T11:00:38.054Z] Processing source 8/8: Yelp - Property Management
+[2025-07-23T11:00:38.055Z] Standard scraping not fully implemented for Yelp - Property Management
+[2025-07-23T11:00:38.055Z] No results found for Yelp - Property Management
+[2025-07-23T11:00:39.836Z] Processing and cleaning collected data...
+[2025-07-23T11:00:39.841Z] 
+=== SCRAPING SUMMARY ===
+[2025-07-23T11:00:39.841Z] Sources processed: 8/8
+[2025-07-23T11:00:39.841Z] Total entities found: 4
+[2025-07-23T11:00:39.842Z] HOAs: 0
+[2025-07-23T11:00:39.842Z] Property Management: 0
+[2025-07-23T11:00:39.842Z] Both types: 0
+[2025-07-23T11:00:39.842Z] Unknown type: 4
+[2025-07-23T11:00:39.842Z] With email: 0
+[2025-07-23T11:00:39.842Z] With phone: 4
+[2025-07-23T11:00:39.842Z] With website: 4
+[2025-07-23T11:00:39.842Z] Errors encountered: 0
+[2025-07-23T11:00:39.842Z] Summary saved to ./results/summary.json
+[2025-07-23T11:00:39.842Z] Closing browser instances...
+[2025-07-23T11:00:40.058Z] South Florida HOA & Property Management Scraper completed successfully.
+[2025-07-23T11:01:34.415Z] South Florida HOA & Property Management Scraper started.
+[2025-07-23T11:01:34.416Z] Launching browser instance 1/2
+[2025-07-23T11:01:35.300Z] Launching browser instance 2/2
+[2025-07-23T11:01:35.681Z] Found 8 enabled data sources to process
+[2025-07-23T11:01:35.682Z] Processing source 1/8: CAI Directory
+[2025-07-23T11:01:35.682Z] Standard scraping not fully implemented for CAI Directory
+[2025-07-23T11:01:35.682Z] No results found for CAI Directory
+[2025-07-23T11:01:37.549Z] Processing source 2/8: FindHOA.com
+[2025-07-23T11:01:37.550Z] Standard scraping not fully implemented for FindHOA.com
+[2025-07-23T11:01:37.550Z] No results found for FindHOA.com
+[2025-07-23T11:01:39.065Z] Processing source 3/8: All Property Management
+[2025-07-23T11:01:39.066Z] Standard scraping not fully implemented for All Property Management
+[2025-07-23T11:01:39.066Z] No results found for All Property Management
+[2025-07-23T11:01:40.818Z] Processing source 4/8: Thumbtack Property Managers
+[2025-07-23T11:01:40.819Z] Standard scraping not fully implemented for Thumbtack Property Managers
+[2025-07-23T11:01:40.819Z] No results found for Thumbtack Property Managers
+[2025-07-23T11:01:42.567Z] Processing source 5/8: Google Maps - HOAs
+[2025-07-23T11:01:42.568Z] Searching Google Maps for: homeowners association broward county
+[2025-07-23T11:01:42.749Z] Navigating to Google Maps for: homeowners association broward county
+[2025-07-23T11:01:54.582Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T11:01:54.593Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T11:01:54.593Z] Processing result 1/5
+[2025-07-23T11:01:56.632Z] Extracted: Association Services of Florida
+[2025-07-23T11:01:57.670Z] Processing result 2/5
+[2025-07-23T11:01:59.693Z] Extracted: Harbor Islands
+[2025-07-23T11:02:00.732Z] Processing result 3/5
+[2025-07-23T11:02:02.750Z] Extracted: Harbor Islands
+[2025-07-23T11:02:03.789Z] Processing result 4/5
+[2025-07-23T11:02:05.804Z] Extracted: Harbor Islands
+[2025-07-23T11:02:06.851Z] Processing result 5/5
+[2025-07-23T11:02:08.875Z] Extracted: Harbor Islands
+[2025-07-23T11:02:11.823Z] Searching Google Maps for: hoa miami-dade county
+[2025-07-23T11:02:11.970Z] Navigating to Google Maps for: hoa miami-dade county
+[2025-07-23T11:02:22.421Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T11:02:22.426Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T11:02:22.426Z] Processing result 1/5
+[2025-07-23T11:02:24.445Z] Extracted: Country Walk Homeowner Association
+[2025-07-23T11:02:25.485Z] Processing result 2/5
+[2025-07-23T11:02:27.509Z] Extracted: Country Walk Homeowner Association
+[2025-07-23T11:02:28.545Z] Processing result 3/5
+[2025-07-23T11:02:30.559Z] Extracted: Country Walk Homeowner Association
+[2025-07-23T11:02:31.604Z] Processing result 4/5
+[2025-07-23T11:02:33.631Z] Extracted: Country Walk Homeowner Association
+[2025-07-23T11:02:34.669Z] Processing result 5/5
+[2025-07-23T11:02:36.703Z] Extracted: Country Walk Homeowner Association
+[2025-07-23T11:02:39.634Z] Collected 10 results from Google Maps - HOAs
+[2025-07-23T11:02:41.232Z] Processing source 6/8: Google Maps - Property Management
+[2025-07-23T11:02:41.232Z] Searching Google Maps for: property management companies broward county
+[2025-07-23T11:02:41.354Z] Navigating to Google Maps for: property management companies broward county
+[2025-07-23T11:02:52.975Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T11:02:52.981Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T11:02:52.981Z] Processing result 1/5
+[2025-07-23T11:02:55.000Z] Extracted: Latitude Key - Curated Vacation Properties
+[2025-07-23T11:02:56.038Z] Processing result 2/5
+[2025-07-23T11:02:58.058Z] Extracted: Latitude Key - Curated Vacation Properties
+[2025-07-23T11:02:59.098Z] Processing result 3/5
+[2025-07-23T11:03:01.112Z] Extracted: Latitude Key - Curated Vacation Properties
+[2025-07-23T11:03:02.185Z] Processing result 4/5
+[2025-07-23T11:03:04.238Z] Extracted: Latitude Key - Curated Vacation Properties
+[2025-07-23T11:03:05.287Z] Processing result 5/5
+[2025-07-23T11:03:07.312Z] Extracted: Latitude Key - Curated Vacation Properties
+[2025-07-23T11:03:10.793Z] Searching Google Maps for: property managers miami-dade county
+[2025-07-23T11:03:10.936Z] Navigating to Google Maps for: property managers miami-dade county
+[2025-07-23T11:03:21.522Z] Selector div[role="article"] not found, trying next...
+[2025-07-23T11:03:21.529Z] Found 8 results using selector: .Nv2PK
+[2025-07-23T11:03:21.529Z] Processing result 1/5
+[2025-07-23T11:03:23.553Z] Extracted: Estaga | Short Term Rental Property Management Company
+[2025-07-23T11:03:24.601Z] Processing result 2/5
+[2025-07-23T11:03:26.624Z] Extracted: Royalty Concierge Services Corp - Miami Property Management
+[2025-07-23T11:03:27.660Z] Processing result 3/5
+[2025-07-23T11:03:29.682Z] Extracted: Royalty Concierge Services Corp - Miami Property Management
+[2025-07-23T11:03:30.732Z] Processing result 4/5
+[2025-07-23T11:03:32.748Z] Extracted: Royalty Concierge Services Corp - Miami Property Management
+[2025-07-23T11:03:33.796Z] Processing result 5/5
+[2025-07-23T11:03:35.813Z] Extracted: Royalty Concierge Services Corp - Miami Property Management
+[2025-07-23T11:03:39.146Z] Collected 10 results from Google Maps - Property Management
+[2025-07-23T11:03:41.205Z] Processing source 7/8: Yelp - HOAs
+[2025-07-23T11:03:41.206Z] Standard scraping not fully implemented for Yelp - HOAs
+[2025-07-23T11:03:41.206Z] No results found for Yelp - HOAs
+[2025-07-23T11:03:43.516Z] Processing source 8/8: Yelp - Property Management
+[2025-07-23T11:03:43.516Z] Standard scraping not fully implemented for Yelp - Property Management
+[2025-07-23T11:03:43.516Z] No results found for Yelp - Property Management
+[2025-07-23T11:03:45.056Z] Processing and cleaning collected data...
+[2025-07-23T11:03:45.062Z] 
+=== SCRAPING SUMMARY ===
+[2025-07-23T11:03:45.062Z] Sources processed: 8/8
+[2025-07-23T11:03:45.062Z] Total entities found: 17
+[2025-07-23T11:03:45.062Z] HOAs: 0
+[2025-07-23T11:03:45.062Z] Property Management: 10
+[2025-07-23T11:03:45.062Z] Both types: 0
+[2025-07-23T11:03:45.062Z] Unknown type: 7
+[2025-07-23T11:03:45.062Z] With email: 0
+[2025-07-23T11:03:45.062Z] With phone: 17
+[2025-07-23T11:03:45.062Z] With website: 17
+[2025-07-23T11:03:45.062Z] Errors encountered: 0
+[2025-07-23T11:03:45.063Z] Summary saved to ./results/summary.json
+[2025-07-23T11:03:45.063Z] Closing browser instances...
+[2025-07-23T11:03:45.298Z] South Florida HOA & Property Management Scraper completed successfully.

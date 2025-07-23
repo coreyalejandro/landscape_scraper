@@ -95,32 +95,32 @@ async function main() {
         // Handle different types of sources
         switch (source.specialType) {
           case 'googleMaps':
-            sourceResults = await scrapers.scrapeGoogleMapsSource(browser, source);
+            sourceResults = await scrapers.scrapeGoogleMapsSource(browser, source, config);
             break;
           case 'yelp':
-            sourceResults = await scrapers.scrapeYelpSource(browser, source);
+            sourceResults = await scrapers.scrapeYelpSource(browser, source, config);
             break;
           case 'findHoa':
-            sourceResults = await scrapers.scrapeFindHoaSource(browser, source);
+            sourceResults = await scrapers.scrapeFindHoaSource(browser, source, config);
             break;
           case 'allPropertyManagement':
-            sourceResults = await scrapers.scrapeAllPropertyManagementSource(browser, source);
+            sourceResults = await scrapers.scrapeAllPropertyManagementSource(browser, source, config);
             break;
           case 'thumbtack':
-            sourceResults = await scrapers.scrapeThumbTackSource(browser, source);
+            sourceResults = await scrapers.scrapeThumbTackSource(browser, source, config);
             break;
           case 'dbprLicense':
-            sourceResults = await scrapers.scrapeDbprLicenseSource(browser, source);
+            sourceResults = await scrapers.scrapeDbprLicenseSource(browser, source, config);
             break;
           case 'directScrape':
-            sourceResults = await scrapers.scrapeDirectSource(browser, source);
+            sourceResults = await scrapers.scrapeDirectSource(browser, source, config);
             break;
           case 'chamberScrape':
-            sourceResults = await scrapers.scrapeChamberSource(browser, source);
+            sourceResults = await scrapers.scrapeChamberSource(browser, source, config);
             break;
           default:
             // Generic scraping for standard sources
-            sourceResults = await scrapers.scrapeStandardSource(browser, source);
+            sourceResults = await scrapers.scrapeStandardSource(browser, source, config);
             break;
         }
         
@@ -147,7 +147,7 @@ async function main() {
         }
         
         // Random delay between sources
-        await helpers.randomDelay();
+        await helpers.randomDelay(config);
         
       } catch (error) {
         totalErrors++;

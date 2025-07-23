@@ -1,7 +1,117 @@
 {
   "processed": 5,
   "total": 8,
-  "percentage": 63,
-  "resultCount": 0,
-  "timestamp": "2025-07-23T03:13:11.160Z"
+  "timestamp": "2025-07-23T11:02:39.638Z",
+  "results": [
+    {
+      "name": "Association Services of Florida",
+      "address": "10112 Usa Today Way, Miramar, FL 33025",
+      "phone": "Send to phone",
+      "website": "https://www.associaonline.com/locations/association-services-of-florida?utm_source=gmb&utm_medium=Yext&y_source=1_Mjc2NjU4MTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "entityType": "propertyManagement",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Harbor Islands",
+      "address": "10112 Usa Today Way, Miramar, FL 33025",
+      "phone": "Send to phone",
+      "website": "https://www.premierassociationservices.com/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Harbor Islands",
+      "address": "3511 Hollywood Oaks Dr, Davie, FL 33312",
+      "phone": "Send to phone",
+      "website": "http://harborislandspoa.com/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Harbor Islands",
+      "address": "15601 Silver Shores Blvd, Miramar, FL 33027",
+      "phone": "Send to phone",
+      "website": "https://silver-shores.com/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Harbor Islands",
+      "address": "15601 Silver Shores Blvd, Miramar, FL 33027",
+      "phone": "Send to phone",
+      "website": "https://silver-shores.com/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Country Walk Homeowner Association",
+      "address": "14601 Country Walk Dr, Miami, FL 33186",
+      "phone": "Send to phone",
+      "website": "http://www.countrywalkhoa.org/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Country Walk Homeowner Association",
+      "address": "10105 SW 77th Ct, Miami, FL 33156",
+      "phone": "Send to phone",
+      "website": "http://dadelandcovehoa.com/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Country Walk Homeowner Association",
+      "address": "27030 SW 119th Ct, Homestead, FL 33032",
+      "phone": "Send to phone",
+      "website": "http://www.countrywalkhoa.org/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Country Walk Homeowner Association",
+      "address": "27030 SW 119th Ct, Homestead, FL 33032",
+      "phone": "Send to phone",
+      "website": "http://www.countrywalkhoa.org/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.633Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    },
+    {
+      "name": "Country Walk Homeowner Association",
+      "address": "5201 Orduna Dr, Coral Gables, FL 33146",
+      "phone": "Send to phone",
+      "website": "http://www.countrywalkhoa.org/",
+      "entityType": "unknown",
+      "source": "Google Maps",
+      "scrapedAt": "2025-07-23T11:02:39.634Z",
+      "sourceType": "googleMaps",
+      "sourceRegion": "all"
+    }
+  ]
 }

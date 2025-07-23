@@ -1,1 +1,189 @@
-[]
+[
+  {
+    "name": "Association Services of Florida",
+    "address": "10112 Usa Today Way, Miramar, FL 33025",
+    "phone": "Send to phone",
+    "website": "https://www.associaonline.com/locations/association-services-of-florida?utm_source=gmb&utm_medium=Yext&y_source=1_Mjc2NjU4MTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Harbor Islands",
+    "address": "10112 Usa Today Way, Miramar, FL 33025",
+    "phone": "Send to phone",
+    "website": "https://www.premierassociationservices.com/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Harbor Islands",
+    "address": "3511 Hollywood Oaks Dr, Davie, FL 33312",
+    "phone": "Send to phone",
+    "website": "http://harborislandspoa.com/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Harbor Islands",
+    "address": "15601 Silver Shores Blvd, Miramar, FL 33027",
+    "phone": "Send to phone",
+    "website": "https://silver-shores.com/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Country Walk Homeowner Association",
+    "address": "14601 Country Walk Dr, Miami, FL 33186",
+    "phone": "Send to phone",
+    "website": "http://www.countrywalkhoa.org/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Country Walk Homeowner Association",
+    "address": "10105 SW 77th Ct, Miami, FL 33156",
+    "phone": "Send to phone",
+    "website": "http://dadelandcovehoa.com/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Country Walk Homeowner Association",
+    "address": "27030 SW 119th Ct, Homestead, FL 33032",
+    "phone": "Send to phone",
+    "website": "http://www.countrywalkhoa.org/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.633Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Country Walk Homeowner Association",
+    "address": "5201 Orduna Dr, Coral Gables, FL 33146",
+    "phone": "Send to phone",
+    "website": "http://www.countrywalkhoa.org/",
+    "entityType": "unknown",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:02:39.634Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Latitude Key - Curated Vacation Properties",
+    "address": "3324 NE 32nd St, Fort Lauderdale, FL 33308",
+    "phone": "Send to phone",
+    "website": "http://www.latitudekey.com/",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.144Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Latitude Key - Curated Vacation Properties",
+    "address": "10112 Usa Today Way, Miramar, FL 33025",
+    "phone": "Send to phone",
+    "website": "https://www.associaonline.com/locations/association-services-of-florida?utm_source=gmb&utm_medium=Yext&y_source=1_Mjc2NjU4MTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Latitude Key - Curated Vacation Properties",
+    "address": "500 NE 13th St, Fort Lauderdale, FL 33304",
+    "phone": "Send to phone",
+    "website": "http://www.mayfairpropertymanagement.com/",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Latitude Key - Curated Vacation Properties",
+    "address": "611 Lexington Ave Suite 107, Davie, FL 33325",
+    "phone": "Send to phone",
+    "website": "https://floridapropertyrealty.com/",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Latitude Key - Curated Vacation Properties",
+    "address": "101 NE 3rd Ave Suite 1500D, Fort Lauderdale, FL 33301",
+    "phone": "Send to phone",
+    "website": "http://www.bestfloridapm.com/",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Estaga | Short Term Rental Property Management Company",
+    "address": "2035 NE 151st St, North Miami Beach, FL 33162",
+    "phone": "Send to phone",
+    "website": "https://estaga.com/airbnb-property-management-miami",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Royalty Concierge Services Corp - Miami Property Management",
+    "address": "2035 NE 151st St, North Miami Beach, FL 33162",
+    "phone": "Send to phone",
+    "website": "https://estaga.com/airbnb-property-management-miami",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Royalty Concierge Services Corp - Miami Property Management",
+    "address": "2125 Biscayne Blvd STE #248, Miami, FL 33137",
+    "phone": "Send to phone",
+    "website": "https://www.pristinepm.com/?tcid=GMB",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.145Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  },
+  {
+    "name": "Royalty Concierge Services Corp - Miami Property Management",
+    "address": "8400 NW 33rd St Suite 370, Miami, FL 33122",
+    "phone": "Send to phone",
+    "website": "https://keyrentermiamiwest.com/",
+    "entityType": "propertyManagement",
+    "source": "Google Maps",
+    "scrapedAt": "2025-07-23T11:03:39.146Z",
+    "sourceType": "googleMaps",
+    "sourceRegion": "all"
+  }
+]

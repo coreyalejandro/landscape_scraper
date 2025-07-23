@@ -52,3 +52,35 @@
 [2025-07-23T03:15:05.058Z] Error processing Yelp - HOAs: Protocol error: Connection closed.
 [2025-07-23T03:53:42.960Z] Fatal error in main execution: helpers.processResults is not a function
 [2025-07-23T03:53:43.240Z] Fatal error: helpers.processResults is not a function
+[2025-07-23T10:52:45.743Z] Error processing CAI Directory: Cannot read properties of undefined (reading 'logPath')
+[2025-07-23T10:52:45.744Z] Error processing FindHOA.com: Cannot read properties of undefined (reading 'logPath')
+[2025-07-23T10:52:45.744Z] Error processing All Property Management: Cannot read properties of undefined (reading 'logPath')
+[2025-07-23T10:52:45.744Z] Error processing Thumbtack Property Managers: Cannot read properties of undefined (reading 'logPath')
+[2025-07-23T10:52:45.745Z] Error processing Google Maps - HOAs: Cannot read properties of undefined (reading 'errorLogPath')
+[2025-07-23T10:52:45.745Z] Error processing Google Maps - Property Management: Cannot read properties of undefined (reading 'errorLogPath')
+[2025-07-23T10:52:45.745Z] Error processing Yelp - HOAs: Cannot read properties of undefined (reading 'logPath')
+[2025-07-23T10:52:45.745Z] Error processing Yelp - Property Management: Cannot read properties of undefined (reading 'logPath')
+[2025-07-23T10:54:48.564Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T10:55:25.353Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T10:56:04.368Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T10:56:40.309Z] Google Maps scraping failed: Waiting for selector `div[role="article"]` failed: Waiting failed: 30000ms exceeded
+[2025-07-23T10:58:18.915Z] Google Maps scraping failed for "homeowners association broward county": page.waitForTimeout is not a function
+[2025-07-23T10:58:23.147Z] Google Maps scraping failed for "hoa miami-dade county": page.waitForTimeout is not a function
+[2025-07-23T10:58:31.238Z] Google Maps scraping failed for "property management companies broward county": page.waitForTimeout is not a function
+[2025-07-23T10:58:36.145Z] Google Maps scraping failed for "property managers miami-dade county": page.waitForTimeout is not a function
+[2025-07-23T10:59:26.758Z] Error processing result 2: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:27.818Z] Error processing result 3: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:28.821Z] Error processing result 4: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:29.824Z] Error processing result 5: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:46.428Z] Error processing result 2: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:47.473Z] Error processing result 3: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:48.475Z] Error processing result 4: Cannot read properties of undefined (reading 'click')
+[2025-07-23T10:59:49.478Z] Error processing result 5: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:08.642Z] Error processing result 2: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:09.684Z] Error processing result 3: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:10.686Z] Error processing result 4: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:11.689Z] Error processing result 5: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:28.307Z] Error processing result 2: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:29.355Z] Error processing result 3: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:30.357Z] Error processing result 4: Cannot read properties of undefined (reading 'click')
+[2025-07-23T11:00:31.359Z] Error processing result 5: Cannot read properties of undefined (reading 'click')

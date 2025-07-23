@@ -1,14 +1,14 @@
 {
-  "totalSources": 0,
-  "processedSources": 0,
-  "totalResults": 0,
+  "totalSources": 8,
+  "processedSources": 8,
+  "totalResults": 17,
   "totalErrors": 0,
   "hoaCount": 0,
-  "propertyManagementCount": 0,
+  "propertyManagementCount": 10,
   "bothCount": 0,
-  "unknownCount": 0,
+  "unknownCount": 7,
   "withEmail": 0,
-  "withPhone": 0,
-  "withWebsite": 0,
-  "processedAt": "2025-07-23T10:16:45.523Z"
+  "withPhone": 17,
+  "withWebsite": 17,
+  "processedAt": "2025-07-23T11:03:45.062Z"
 }
