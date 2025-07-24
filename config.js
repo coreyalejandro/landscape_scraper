@@ -27,7 +27,7 @@ module.exports = {
   maxRetries: 3,
   retryDelay: 5000,
   browserInstances: 2,
-  headless: "new",
+  headless: 'new',
   outputPath: './results/data.json',
   exportCsvPath: './results/data.csv',
   exportDocPath: './results/data.doc',

@@ -11,7 +11,7 @@ const dataSources = [
     url: 'https://web.bcpa.net/BcpaClient/#/Record-Search',
     searchTerms: {
       hoa: [
-        'HOA', 'Homeowners Association', 'Condominium Association', 
+        'HOA', 'Homeowners Association', 'Condominium Association',
         'Community Association', 'Residential Association', 'Property Owners'
       ],
       propertyManagement: [
@@ -51,7 +51,7 @@ const dataSources = [
       resultInfo: '.property-record'
     }
   },
-  
+
   // State regulatory bodies
   {
     name: 'Florida DBPR - Division of Condominiums',
@@ -91,7 +91,7 @@ const dataSources = [
       ]
     }
   },
-  
+
   // HOA Directories
   {
     name: 'CAI Directory',
@@ -122,7 +122,7 @@ const dataSources = [
     },
     specialType: 'findHoa'
   },
-  
+
   // Property Management Directories
   {
     name: 'All Property Management',
@@ -152,7 +152,7 @@ const dataSources = [
     },
     specialType: 'thumbtack'
   },
-  
+
   // Sunbiz (Florida Division of Corporations)
   {
     name: 'Florida Division of Corporations',
@@ -181,7 +181,7 @@ const dataSources = [
       resultInfo: '.entity-details'
     }
   },
-  
+
   // Google Maps (requires special handling)
   {
     name: 'Google Maps - HOAs',
@@ -217,7 +217,7 @@ const dataSources = [
     },
     specialType: 'googleMaps'
   },
-  
+
   // Yelp
   {
     name: 'Yelp - HOAs',
@@ -248,7 +248,7 @@ const dataSources = [
     },
     specialType: 'yelp'
   },
-  
+
   // Real estate boards
   {
     name: 'Miami Association of Realtors',
@@ -266,7 +266,7 @@ const dataSources = [
     url: 'https://gflr.com/find-a-member/',
     specialType: 'directScrape'
   },
-  
+
   // Chambers of Commerce
   {
     name: 'Greater Miami Chamber of Commerce',

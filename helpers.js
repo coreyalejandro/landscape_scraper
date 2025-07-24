@@ -32,10 +32,10 @@ function log(message, type = 'info', config) {
 
 function formatPhoneNumber(phone) {
   if (!phone) return '';
-  
+
   // Remove all non-digit characters
   const cleaned = phone.replace(/\D/g, '');
-  
+
   // Check if it's a valid US phone number (10 digits)
   if (cleaned.length === 10) {
     return `(${cleaned.substring(0, 3)}) ${cleaned.substring(3, 6)}-${cleaned.substring(6)}`;
@@ -43,7 +43,7 @@ function formatPhoneNumber(phone) {
     // Handle 1 + area code format
     return `(${cleaned.substring(1, 4)}) ${cleaned.substring(4, 7)}-${cleaned.substring(7)}`;
   }
-  
+
   // Just return the original if it doesn't match pattern
   return phone;
 }
@@ -72,14 +72,14 @@ function extractContactInfo(text) {
 
 function determineEntityType(name, description = '') {
   const text = (name + ' ' + description).toLowerCase();
-  
+
   // HOA indicators
   const hoaIndicators = [
     'homeowners association', 'hoa', 'condominium association', 'condo association',
     'community association', 'property owners association', 'townhome association',
     'residential association', 'neighborhood association'
   ];
-  
+
   // Property management indicators
   const pmIndicators = [
     'property management', 'property manager', 'real estate management',
@@ -87,27 +87,27 @@ function determineEntityType(name, description = '') {
     'realty management', 'rental services', 'leasing services',
     'landlord services', 'real estate services'
   ];
-  
+
   // Check for HOA indicators
   const isHoa = hoaIndicators.some(indicator => text.includes(indicator));
-  
+
   // Check for property management indicators
   const isPm = pmIndicators.some(indicator => text.includes(indicator));
-  
+
   // Return determined type
   if (isHoa && !isPm) return 'hoa';
   if (isPm && !isHoa) return 'propertyManagement';
   if (isHoa && isPm) return 'both'; // Some entries might be both
-  
+
   // If no clear indication, try to make a best guess based on name
   if (name.match(/\b(estates|village|community|garden|towers|lake|place|terrace|club|hills|palms)\b/i)) {
     return 'hoa';
   }
-  
+
   if (name.match(/\b(realty|properties|management|services|rental|leasing)\b/i)) {
     return 'propertyManagement';
   }
-  
+
   // Default to unknown
   return 'unknown';
 }

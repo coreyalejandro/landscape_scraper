@@ -6,19 +6,19 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
   const page = await browser.newPage();
   await page.setViewport({ width: 1366, height: 768 });
   await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-  
+
   const results = [];
-  
+
   try {
     helpers.log(`Navigating to Google Maps for: ${searchTerm}`, 'info', config);
-    
+
     // Navigate to Google Maps with search term directly in URL
     const searchUrl = `https://www.google.com/maps/search/${encodeURIComponent(searchTerm)}`;
     await page.goto(searchUrl, { waitUntil: 'networkidle0', timeout: 60000 });
-    
+
     // Wait a bit for page to load
     await helpers.delay(3000);
-    
+
     // Try multiple selectors for results
     const resultSelectors = [
       'div[role="article"]',
@@ -27,7 +27,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
       '.lI9IFe',
       'div[jsaction*="pane.resultGroup"]'
     ];
-    
+
     let resultElements = null;
     for (const selector of resultSelectors) {
       try {
@@ -41,7 +41,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
         helpers.log(`Selector ${selector} not found, trying next...`, 'info', config);
       }
     }
-    
+
     if (!resultElements || resultElements.length === 0) {
       // Try text-based approach
       const pageContent = await page.content();
@@ -53,36 +53,36 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
       await page.close();
       return results;
     }
-    
+
     // Process first 5 results
     const maxResults = Math.min(5, resultElements.length);
-    
+
     for (let i = 0; i < maxResults; i++) {
       try {
         helpers.log(`Processing result ${i + 1}/${maxResults}`, 'info', config);
-        
+
         // Re-get result elements before each click to ensure they're still valid
         resultElements = await page.$$(resultSelectors.find(s => s === '.Nv2PK') || resultSelectors[0]);
-        
+
         // Check if we still have enough elements
         if (!resultElements[i]) {
           helpers.log(`Result ${i + 1} no longer available, skipping`, 'info', config);
           continue;
         }
-        
+
         // Click on the result
         await resultElements[i].click();
         await helpers.delay(2000);
-        
+
         // Extract business information
         const businessData = await page.evaluate(() => {
           const result = { name: '', address: '', phone: '', website: '' };
-          
+
           // Try various selectors for business name
           const nameSelectors = [
             'h1',
-            'h1[data-attrid="title"]', 
-            '[data-attrid="title"]', 
+            'h1[data-attrid="title"]',
+            '[data-attrid="title"]',
             '.x3AX1-LfntMc-header-title-title',
             '.qBF1Pd',
             '.DUwDvf',
@@ -95,7 +95,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
               break;
             }
           }
-          
+
           // If no good name found, try to extract from URL or other sources
           if (!result.name || result.name === 'Results') {
             // Try to get name from page title
@@ -107,7 +107,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
               }
             }
           }
-          
+
           // Try to find address
           const addressSelectors = ['button[data-item-id="address"]', '[data-item-id="address"]', '.Io6YTe'];
           for (const selector of addressSelectors) {
@@ -117,7 +117,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
               break;
             }
           }
-          
+
           // Try to find phone
           const phoneSelectors = ['button[data-item-id="phone"]', '[data-item-id="phone"]', '[aria-label*="phone"]'];
           for (const selector of phoneSelectors) {
@@ -127,7 +127,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
               break;
             }
           }
-          
+
           // Try to find website
           const websiteSelectors = ['a[data-item-id="authority"]', '[data-item-id="authority"]', 'a[aria-label*="website"]'];
           for (const selector of websiteSelectors) {
@@ -137,10 +137,10 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
               break;
             }
           }
-          
+
           return result;
         });
-        
+
         if (businessData.name && businessData.name.length > 2) {
           businessData.entityType = helpers.determineEntityType(businessData.name);
           businessData.source = 'Google Maps';
@@ -150,14 +150,14 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
           results.push(businessData);
           helpers.log(`Extracted: ${businessData.name}`, 'info', config);
         }
-        
+
         // Go back to results
         await page.goBack();
         await helpers.delay(1000);
-        
+
         // Re-get result elements as DOM may have changed
         resultElements = await page.$$(resultSelectors.find(s => resultElements.length > 0) || resultSelectors[0]);
-        
+
       } catch (error) {
         helpers.log(`Error processing result ${i + 1}: ${error.message}`, 'error', config);
         // Try to go back and continue
@@ -170,10 +170,10 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
         }
       }
     }
-    
+
     await page.close();
     return results;
-    
+
   } catch (err) {
     helpers.log(`Google Maps scraping failed for "${searchTerm}": ${err.message}`, 'error', config);
     await page.close();
@@ -184,7 +184,7 @@ async function scrapeGoogleMaps(browser, searchTerm, entityType, config) {
 async function scrapeGoogleMapsSource(browser, source, config) {
   const results = [];
   const searchTerms = source.searchTerms[source.entityType] || source.searchTerms.hoa || source.searchTerms.propertyManagement;
-  
+
   for (const searchTerm of searchTerms.slice(0, 2)) { // Limit to first 2 terms
     try {
       helpers.log(`Searching Google Maps for: ${searchTerm}`, 'info', config);
@@ -195,7 +195,7 @@ async function scrapeGoogleMapsSource(browser, source, config) {
       helpers.log(`Error searching Google Maps for "${searchTerm}": ${error.message}`, 'error', config);
     }
   }
-  
+
   return results;
 }
 

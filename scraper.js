@@ -35,12 +35,12 @@ fs.ensureDirSync(config.tempDataPath);
 // Main entry point
 async function main() {
   helpers.log('South Florida HOA & Property Management Scraper started.', 'info', config);
-  
+
   const allResults = [];
   const processedSources = new Set();
   let totalProcessed = 0;
   let totalErrors = 0;
-  
+
   // Create browser instances based on config
   const browsers = [];
   try {
@@ -63,67 +63,67 @@ async function main() {
       });
       browsers.push(browser);
     }
-    
+
     // Filter data sources based on configuration
     const enabledSources = dataSources.filter(source => {
       // Check if source type is enabled
       if (!config.sources[source.type]) return false;
-      
+
       // Check if region matches
       if (source.region !== 'all' && !config.regions[source.region]) return false;
-      
+
       // Check if entity type is enabled
       if (source.entityType === 'hoa' && !config.entityTypes.hoa) return false;
       if (source.entityType === 'propertyManagement' && !config.entityTypes.propertyManagement) return false;
-      
+
       return true;
     });
-    
+
     helpers.log(`Found ${enabledSources.length} enabled data sources to process`, 'info', config);
-    
+
     // Process each data source
     for (let sourceIndex = 0; sourceIndex < enabledSources.length; sourceIndex++) {
       const source = enabledSources[sourceIndex];
       const browserIndex = sourceIndex % browsers.length;
       const browser = browsers[browserIndex];
-      
+
       helpers.log(`Processing source ${sourceIndex + 1}/${enabledSources.length}: ${source.name}`, 'info', config);
-      
+
       try {
         let sourceResults = [];
-        
+
         // Handle different types of sources
         switch (source.specialType) {
-          case 'googleMaps':
-            sourceResults = await scrapers.scrapeGoogleMapsSource(browser, source, config);
-            break;
-          case 'yelp':
-            sourceResults = await scrapers.scrapeYelpSource(browser, source, config);
-            break;
-          case 'findHoa':
-            sourceResults = await scrapers.scrapeFindHoaSource(browser, source, config);
-            break;
-          case 'allPropertyManagement':
-            sourceResults = await scrapers.scrapeAllPropertyManagementSource(browser, source, config);
-            break;
-          case 'thumbtack':
-            sourceResults = await scrapers.scrapeThumbTackSource(browser, source, config);
-            break;
-          case 'dbprLicense':
-            sourceResults = await scrapers.scrapeDbprLicenseSource(browser, source, config);
-            break;
-          case 'directScrape':
-            sourceResults = await scrapers.scrapeDirectSource(browser, source, config);
-            break;
-          case 'chamberScrape':
-            sourceResults = await scrapers.scrapeChamberSource(browser, source, config);
-            break;
-          default:
-            // Generic scraping for standard sources
-            sourceResults = await scrapers.scrapeStandardSource(browser, source, config);
-            break;
+        case 'googleMaps':
+          sourceResults = await scrapers.scrapeGoogleMapsSource(browser, source, config);
+          break;
+        case 'yelp':
+          sourceResults = await scrapers.scrapeYelpSource(browser, source, config);
+          break;
+        case 'findHoa':
+          sourceResults = await scrapers.scrapeFindHoaSource(browser, source, config);
+          break;
+        case 'allPropertyManagement':
+          sourceResults = await scrapers.scrapeAllPropertyManagementSource(browser, source, config);
+          break;
+        case 'thumbtack':
+          sourceResults = await scrapers.scrapeThumbTackSource(browser, source, config);
+          break;
+        case 'dbprLicense':
+          sourceResults = await scrapers.scrapeDbprLicenseSource(browser, source, config);
+          break;
+        case 'directScrape':
+          sourceResults = await scrapers.scrapeDirectSource(browser, source, config);
+          break;
+        case 'chamberScrape':
+          sourceResults = await scrapers.scrapeChamberSource(browser, source, config);
+          break;
+        default:
+          // Generic scraping for standard sources
+          sourceResults = await scrapers.scrapeStandardSource(browser, source, config);
+          break;
         }
-        
+
         if (sourceResults && sourceResults.length > 0) {
           // Add source metadata
           sourceResults.forEach(result => {
@@ -131,40 +131,40 @@ async function main() {
             result.sourceType = source.type;
             result.sourceRegion = source.region;
           });
-          
+
           allResults.push(...sourceResults);
           helpers.log(`Collected ${sourceResults.length} results from ${source.name}`, 'info', config);
         } else {
           helpers.log(`No results found for ${source.name}`, 'info', config);
         }
-        
+
         processedSources.add(source.name);
         totalProcessed++;
-        
+
         // Save progress periodically
         if (totalProcessed % 5 === 0) {
           await helpers.saveProgress(allResults, totalProcessed, enabledSources.length);
         }
-        
+
         // Random delay between sources
         await helpers.randomDelay(config);
-        
+
       } catch (error) {
         totalErrors++;
         helpers.log(`Error processing ${source.name}: ${error.message}`, 'error', config);
-        
+
         // Continue with next source
         continue;
       }
     }
-    
+
     // Process and clean results
     helpers.log('Processing and cleaning collected data...', 'info', config);
     const cleanedResults = await helpers.processResults(allResults);
-    
+
     // Export results
     await helpers.exportResults(cleanedResults);
-    
+
     // Generate summary report
     const summary = {
       totalSources: enabledSources.length,
@@ -180,7 +180,7 @@ async function main() {
       withWebsite: cleanedResults.filter(r => r.website).length,
       processedAt: new Date().toISOString()
     };
-    
+
     helpers.log('\n=== SCRAPING SUMMARY ===', 'info', config);
     helpers.log(`Sources processed: ${summary.processedSources}/${summary.totalSources}`, 'info', config);
     helpers.log(`Total entities found: ${summary.totalResults}`, 'info', config);
@@ -192,12 +192,12 @@ async function main() {
     helpers.log(`With phone: ${summary.withPhone}`, 'info', config);
     helpers.log(`With website: ${summary.withWebsite}`, 'info', config);
     helpers.log(`Errors encountered: ${summary.totalErrors}`, 'info', config);
-    
+
     // Save summary
     const summaryPath = './results/summary.json';
     await fs.writeJson(summaryPath, summary, { spaces: 2 });
     helpers.log(`Summary saved to ${summaryPath}`, 'info', config);
-    
+
   } catch (error) {
     helpers.log(`Fatal error in main execution: ${error.message}`, 'error', config);
     throw error;
@@ -212,7 +212,7 @@ async function main() {
       }
     }
   }
-  
+
   helpers.log('South Florida HOA & Property Management Scraper completed successfully.', 'info', config);
 }
 
