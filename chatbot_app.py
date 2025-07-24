@@ -12,7 +12,9 @@ import threading
 import time
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your-secret-key-here'
+# PRODUCTION: Use environment variable or generate secure key
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'sf-property-expert-2024-prod-key-change-me')
+# PRODUCTION: Disable CORS for security (configure for your domain)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 class PropertyExpertChatbot:
@@ -598,4 +600,10 @@ if __name__ == '__main__':
     os.makedirs('logs', exist_ok=True)
     os.makedirs('temp_data', exist_ok=True)
     
-    socketio.run(app, debug=True, port=5000) 
+    print("🤖 Starting South Florida Property Expert Chatbot (Advanced)...")
+    print("🌐 Server will be available at: http://localhost:5000")
+    print("💡 Features: HOA & Property Management expertise, real-time scraping, market insights")
+    print("")
+    
+    # PRODUCTION: Disable debug mode, bind to all interfaces
+    socketio.run(app, debug=False, host='0.0.0.0', port=5000) 

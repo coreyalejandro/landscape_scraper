@@ -518,8 +518,9 @@ if __name__ == '__main__':
     os.makedirs('temp_data', exist_ok=True)
     
     print("🤖 Starting South Florida Property Expert Chatbot...")
-    print("🌐 Server will be available at: http://localhost:5000")
+    print("🌐 Server will be available at: http://localhost:5001")
     print("💡 Features: HOA & Property Management expertise, real-time scraping, market insights")
     print("")
     
-    app.run(debug=True, port=5000) 
+    # PRODUCTION: Disable debug mode
+    app.run(debug=False, host='0.0.0.0', port=5001) 

@@ -459,4 +459,6 @@ if 'scraper_finished' not in st.session_state:
     st.session_state.scraper_finished = False
 
 if __name__ == "__main__":
+    # PRODUCTION: Configure Streamlit for production
+    # Use: streamlit run app.py --server.address 0.0.0.0 --server.port 8501
     main() 
